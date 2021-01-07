@@ -1,0 +1,31 @@
+git branch
+git branch dev
+git checkout dev
+...
+git checkout master
+
+
+git branch bug
+git branch
+git checkout bug
+...
+
+
+git checkout master
+git branch
+git merge bug
+
+
+git branch -d bug
+git branch
+
+
+git checkout dev
+...
+
+
+git checkout master
+git merge dev --->CONFLICT
+(quyuanwenjian)
+git add .
+git commit -m '...'
